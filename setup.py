@@ -25,7 +25,7 @@ setup(
     author_email='carl@oddbird.net',
     url='https://github.com/carljm/django-transaction-hooks/',
     packages=find_packages(),
-    install_requires=['django>=1.6.1'],
+    install_requires=['django<=1.4.20'],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
